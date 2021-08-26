@@ -10,6 +10,8 @@
  pip install tensorflow
 # install pytorch
  pip3 install torch torchvision
+# install flask
+pip install flask
  
 # Install Training-Data
 En exécutant le script sentiment-analysis.py
