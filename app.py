@@ -4,8 +4,8 @@ import math
 import sentiment_analysis
 
 app = Flask(__name__)
-
-app.config["IMAGE_UPLOADS"] =r"\Users\labrhaddasaad\Desktop\projet_nlp\static"
+#changer path du dossier static
+app.config["IMAGE_UPLOADS"] =r"\static"
 
 @app.route('/',methods=['GET','POST'])
 
