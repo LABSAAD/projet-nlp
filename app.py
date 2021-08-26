@@ -7,7 +7,7 @@ app = Flask(__name__)
 
 app.config["IMAGE_UPLOADS"] =r"\Users\labrhaddasaad\Desktop\projet_nlp\static"
 
-@app.route('/index',methods=['GET','POST'])
+@app.route('/',methods=['GET','POST'])
 
 def index():
 
